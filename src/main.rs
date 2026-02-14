@@ -4,7 +4,6 @@ use std::io;
 
 fn main() {
     println!("Guess the number!");
-
     let secret_number:u32 = rand::rng().random_range(1..101);
     loop {
         let mut guess = String::new();
